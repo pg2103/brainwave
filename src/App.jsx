@@ -4,6 +4,7 @@ import Header from './components/Header';
 import  Benefits  from './components/Benefits';
 import Collabration from './components/Collabration';
 import Services from './components/Services';
+import Pricing from './components/Pricing';
 const App=()=> {
   return (
     <>
@@ -12,9 +13,11 @@ const App=()=> {
       <Hero/>
       <Benefits/>
       <Collabration/>
+      <Services/>
+      <Pricing/>
     </div>
     <ButtonGradient />
-    <Services/>
+    
     </>
   )
 }
