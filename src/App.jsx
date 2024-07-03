@@ -6,6 +6,7 @@ import Collabration from './components/Collabration';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
 import Roadmap from './components/Roadmap';
+import Footer from './components/Footer';
 const App=()=> {
   return (
     <>
@@ -17,6 +18,7 @@ const App=()=> {
       <Services/>
       <Pricing/>
       <Roadmap/>
+      <Footer/>
     </div>
     <ButtonGradient />
     
